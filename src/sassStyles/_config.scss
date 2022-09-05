@@ -1,0 +1,47 @@
+$primary-color: #272727;
+$secondary-color: #ff652f;
+$font-family: Verdana, Geneva, Tahoma, sans-serif;
+$home-background-image: url("../assets/img/model-1.jpg");
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+
+@function set-text-color($color) {
+  @if (lightness($color) > 40%) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+.text__secondary {
+  color: $secondary-color;
+}
+
+// @mixin name {
+//   @media screen and 
+// }
+@mixin media-md {
+  @media screen and (min-width: 150px) and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+.active {
+  color: $secondary-color;
+}
+a:hover {
+  color: $secondary-color;
+}
+body {
+  box-sizing: border-box;
+}

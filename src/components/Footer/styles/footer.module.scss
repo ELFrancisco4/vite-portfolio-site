@@ -1,0 +1,25 @@
+@import '../../../sassStyles/_config.scss';
+
+.footer{
+    font-size: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0.4rem;
+    right: 1rem;
+    width: 100%;
+    text-align: right;
+    padding: 1rem;
+    color: set-text-color($primary-color);
+    .icon{
+      margin-left: 0.5rem;
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+      @include transition-ease;
+      &:hover{
+        color: $secondary-color;
+      }
+    }
+  }

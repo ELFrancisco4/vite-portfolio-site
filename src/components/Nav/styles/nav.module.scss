@@ -1,0 +1,28 @@
+@import "../../../sassStyles/_config.scss";
+@import '../../../sassStyles/responsive';
+
+.nav{
+  &__menu{
+  display: block;
+  height: 100%;
+  text-align: right;
+  padding: 1em;
+    .menu_item {
+      display: inline;
+      padding-right: 1.5rem;
+      font-size: 1.5rem;
+    }
+  }
+}
+.closed_menu{
+  padding: 1em;
+  display: block;
+  height: 100%;
+  text-align: right;
+    .menu_item {
+      display: inline;
+      padding-right: 1.5rem;
+      font-size: 1.5rem;
+    }
+}
+

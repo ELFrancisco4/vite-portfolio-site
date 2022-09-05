@@ -1,0 +1,121 @@
+.text__secondary {
+  color: #ff652f;
+}
+
+.text__secondary {
+  color: #ff652f;
+}
+
+@media screen and (min-width: 150px) and (max-width: 768px) {
+  .menu_btn {
+    position: absolute;
+    z-index: 1;
+    right: 1rem;
+    top: 1rem;
+    height: 3px;
+    width: 28px;
+    border: solid 2px red;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu_btn__burger {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu_btn__burger::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu_btn__burger::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu_btn__burger.open {
+    transform: rotate(720deg);
+    background: transparent;
+  }
+  .menu_btn__burger.open::before {
+    transform: rotate(45deg) translate(5px, 8px);
+  }
+  .menu_btn__burger.open::after {
+    width: 28px;
+    transform: rotate(-45deg) translate(3px, -7px);
+  }
+  .nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    opacity: 0.98;
+  }
+  .nav.closed {
+    visibility: hidden;
+  }
+  .nav .nav__menu {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    background: #272727;
+    list-style-type: none;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(0);
+  }
+  .nav .nav__menu .menu_item {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .nav .nav__menu .menu_item.active {
+    color: #ff652f;
+  }
+  .closed_menu {
+    transform: translateY(-100%);
+    visibility: hidden;
+  }
+}
+.nav {
+  border-bottom: solid 1px #ff652f;
+}
+.nav__menu {
+  display: block;
+  height: 100%;
+  text-align: right;
+}
+.nav__menu .menu_item {
+  display: inline;
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+}
+.nav__menu .menu_item:hover {
+  color: #ff652f;
+}
+
+.closed_menu {
+  display: block;
+  height: 100%;
+  text-align: right;
+}
+.closed_menu .menu_item {
+  display: inline;
+  padding-right: 1.5rem;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=nav.module.css.map */
