@@ -21,6 +21,8 @@ npm install
 cd dist/portfolio-site
 npm run dev
 ```
+## Live version:
+``` https://vite-portfolio-site.vercel.app ```
 
 ## Acknowledgements
 
