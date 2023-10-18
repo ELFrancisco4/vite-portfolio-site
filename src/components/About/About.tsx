@@ -9,41 +9,40 @@ const About = () => {
           {" "}
           <h2 className={styles.text__secondary}>BIO</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi dolor
-            totam sapiente dolore omnis expedita iste fugiat sunt nemo sit ipsa,
-            cumque quod corrupti, quisquam aspernatur adipisci animi recusandae
-            ex.
+            I am a Security focused Web Engineer with experience in building
+            front end applications using React, Typescript and SASS. I have
+            knowledge of backend technologies such as Nodejs, Expressjs and
+            MongoDB. My primary tech stack is the MERN stack. I am a passionate
+            Cyber Security Analyst with an ardent zeal to learn and solve
+            problems.
           </p>
         </div>
       </div>
 
       <div className={styles.jobs}>
         <div className={styles.job}>
-          <h2 className="text__secondary">2017-current</h2>
-          <h3>Google</h3>
-          <h6>Full Stack Developer</h6>
+          <h2 className="text__secondary">2023-current</h2>
+          <h3>Benjamin Family Initiative</h3>
+          <h6>Cyber Security Analyst</h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolor
-            tempora delectus iure corporis ea.
+            I am currently wprking as a Cyber Security Analyst and Tutor at
+            Benjamin Family Initiative (BFI)
           </p>
         </div>
         <div className={styles.job}>
-          <h2 className="text__secondary">2015-2017</h2>
-          <h3>Microsoft</h3>
-          <h6>SOC Analyst</h6>
+          <h2 className="text__secondary">2022 (From May to December)</h2>
+          <h3>Federal Ministry of Communications and Digital Economy</h3>
+          <h6>Intern</h6>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolor
-            tempora delectus iure corporis ea.
+            I worked as an intern in the ICT department of the Federal Ministry
+            of Communications and Digital Economy
           </p>
         </div>
         <div className={styles.job}>
-          <h2 className="text__secondary">2012-2015</h2>
-          <h3>Amazon</h3>
-          <h6>Dev Ops Engineer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolor
-            tempora delectus iure corporis ea.
-          </p>
+          <h2 className="text__secondary">2019-2023</h2>
+          <h3>Ritman University</h3>
+          <h6>Student</h6>
+          <p>I studied B.Sc Cyber Security for 4 years at Ritman University.</p>
         </div>
       </div>
       <Footer />
