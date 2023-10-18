@@ -12,9 +12,8 @@ const About = () => {
             I am a Security focused Web Engineer with experience in building
             front end applications using React, Typescript and SASS. I have
             knowledge of backend technologies such as Nodejs, Expressjs and
-            MongoDB. My primary tech stack is the MERN stack. I am a passionate
-            Cyber Security Analyst with an ardent zeal to learn and solve
-            problems.
+            MongoDB. My primary tech stack is the MERN stack. I am extremely
+            passionate about Cyber Security and data privacy protection.
           </p>
         </div>
       </div>
